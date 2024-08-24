@@ -2,7 +2,7 @@ name: rupee_textfield
 description: "Currency TextField Formatter"
 version: 0.0.1
 homepage: null
-repository: null
+repository: https://github.com/dpr24/rupee_textfield
 
 environment:
   sdk: '>=3.4.3 <4.0.0'
