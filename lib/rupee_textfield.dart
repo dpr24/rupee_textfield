@@ -1,7 +1,7 @@
 library rupee_textfield;
 
 import 'package:flutter/material.dart';
-import 'package:rupee_textfield/formatter/CurrencyInputFormatter.dart';
+import 'package:rupee_textfield/formatter/currency_input_formatter.dart';
 
 class RupeeTextField extends StatelessWidget {
   const RupeeTextField(

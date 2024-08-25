@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:rupee_textfield/formatter/CurrencyInputFormatter.dart';
+import 'package:rupee_textfield/formatter/currency_input_formatter.dart';
 
 void main() {
   test('CurrencyInputFormatter formats input correctly', () {
