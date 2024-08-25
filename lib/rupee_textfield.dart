@@ -21,7 +21,7 @@ class RupeeTextField extends StatelessWidget {
   final InputDecoration? decoration;
   final Function()? onTap;
   final Function(String) onChanged;
-  final Function(String)? validator;
+  final Function(String value)? validator;
 
   @override
   Widget build(BuildContext context) {

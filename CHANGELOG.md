@@ -1,3 +1,14 @@
+
+## 0.0.3
+
+## Added
+- Updated `README.md` to include examples of how to use the `RupeeTextField` widget, formatting extensions, and customization options.
+
+## 0.0.2
+
+## Renamed
+- Renamed `CurrencyInputFormatter.dart` to `currency_input_formatter.dart` for better clarity and consistency.
+
 ## 0.0.1
 
 ### Initial Release

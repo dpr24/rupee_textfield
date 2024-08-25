@@ -22,10 +22,43 @@ To use the `rupee_textfield` package in your Flutter application, follow these s
    dependencies:
      flutter:
        sdk: flutter
-     rupee_textfield: ^1.0.0
+     rupee_textfield: ^0.0.3
+   ```
 
 2. **usage**
 
-To use the package, follow the instructions in the `/example` folder.
+ Import the package and use the RupeeTextField widget in your application
+
+ ```dart
+ import 'package:rupee_textfield/rupee_textfield.dart';
+ ```
+    
+ ```dart
+  RupeeTextField(
+              controller: controller,
+              decoration: InputDecoration(
+                  hintText: 'Enter Amount',
+                  fillColor: Colors.blue.withOpacity(0.1),
+                  filled: true,
+                  border: const OutlineInputBorder(
+                      borderSide: BorderSide.none,
+                      borderRadius: BorderRadius.all(Radius.circular(15)))),
+              onChanged: (value) {
+                
+              },
+              validator: (value) {
+                return value.isEmpty ? "Amount can't be empty" : null;
+              },
+            ),
+```
+3. **To get the unformatted string or integer value from the RupeeTextField controller**
+
+```dart
+  // Get the unformatted string value
+String unformattedString = controller.text.toUnFormattedString(); // e.g., "80000"
+
+// Get the unformatted integer value
+int unformattedInt = controller.text.toUnFormattedInt(); // e.g., 80000
+```
 
 ![Alt text](./screenshots/Screenshot_20240824_132540.jpg)
