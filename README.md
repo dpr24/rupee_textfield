@@ -23,7 +23,6 @@ To use the `rupee_textfield` package in your Flutter application, follow these s
      flutter:
        sdk: flutter
      rupee_textfield: ^0.0.3
-   ```
 
 2. **usage**
 
