@@ -28,16 +28,14 @@ class _HomeScreenState extends State<HomeScreen> {
               controller: controller,
               decoration: InputDecoration(
                   hintText: 'Enter Amount',
-                  fillColor: Colors.blue.withOpacity(0.1),
+                  fillColor: Colors.blue.withValues(alpha: 0.1),
                   filled: true,
                   border: const OutlineInputBorder(
                       borderSide: BorderSide.none,
                       borderRadius: BorderRadius.all(Radius.circular(15)))),
-              onChanged: (value) {
-                setState(() {});
-              },
+              onChanged: (value) {},
               validator: (value) {
-                return value.isEmpty ? "Amount can't be empty" : null;
+                return value!.isEmpty ? "Amount can't be empty" : null;
               },
             ),
             const SizedBox(

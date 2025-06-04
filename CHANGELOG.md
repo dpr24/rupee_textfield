@@ -1,3 +1,29 @@
+## [0.0.4] - 2025-06-04
+
+### Updated
+- Upgraded all dependencies to their latest stable versions to ensure compatibility with the latest Flutter SDK.
+
+### Added
+- Added support for additional `TextFormField` parameters in `RupeeTextField`, including:
+  - `focusNode`
+  - `autofocus`
+  - `readOnly`
+  - `textInputAction`
+  - `onFieldSubmitted`
+  - `onEditingComplete`
+  - `style`
+  - `textAlign`
+  - `maxLines`, `minLines`, `maxLength`, and `buildCounter`
+  - `keyboardAppearance`
+  - `enableSuggestions`, `enableInteractiveSelection`
+  - `scrollPadding`, `textDirection`, `expands`, `scrollPhysics`
+  - `restorationId`, `smartDashesType`, `smartQuotesType`
+  - `strutStyle`, `textCapitalization`
+  - `mouseCursor`, `contextMenuBuilder`
+
+### Notes
+- `CurrencyInputFormatter` continues to format the input with the `₹` symbol.
+- All new parameters are optional and preserve backward compatibility.
 
 ## 0.0.3
 
